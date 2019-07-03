@@ -1,0 +1,70 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+<include>./complemento.xml</include>
+
+
+
+
+    
+    <view name="system, basic, detailed, video">
+		<image name="logo">
+			<path>./_inc/system.png</path>
+		</image>
+	</view>
+
+
+
+	<view name="system">
+                <image name="background" extra="true">
+                   <origin>0 0</origin>
+                   <pos>0 0</pos>
+                   <size>1 1</size>
+                   <path>./_inc/fondo.png</path>
+                </image>
+	</view>
+    
+        <view name="detailed">
+        <image name="frame" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./_inc/fondo.png</path>
+        </image>
+         <image name="frame2" extra="true">
+            <origin>0 0</origin>
+                   <pos>0 0.19</pos>
+                   <size>600 0.670</size>
+            <path>./_inc/fondo1.png</path>
+        </image>
+    </view>
+	
+	
+    <view name="video">
+        <image name="crt" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./_inc/fondo2.png</path>
+        </image>
+    </view>
+    
+    
+    
+    <view name="basic,grid">
+        <image name="frame" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./_inc/fondo.png</path>
+        </image>
+         <image name="frame2" extra="true">
+            <origin>0 0</origin>
+                   <pos>0 0.19</pos>
+                   <size>600 0.670</size>
+            <path>./_inc/fondo1.png</path>
+        </image>
+    </view>
+    
+
+</theme>

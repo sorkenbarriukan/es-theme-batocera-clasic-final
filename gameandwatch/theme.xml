@@ -1,0 +1,494 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+
+<!--grid-->
+
+   <view name="grid">
+
+		<text name="md_description">
+	  	<pos>0.48 0.86</pos>
+         <size>0.400 0.09</size>
+         <color>FFFFFF</color>
+		<fontSize>0.02</fontSize>
+		<fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+		   </text>
+		
+	 <helpsystem name="help">
+         <fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+         <fontSize>0.0200</fontSize>      
+         <pos>0.03 0.14</pos> 
+         <textColor>FFFFFF</textColor>
+         <iconColor>FFFFFF</iconColor>
+      </helpsystem>
+		
+		<gridtile name="default">
+			<size>0.12 0.17</size>
+			<backgroundColor>842c38</backgroundColor>
+		</gridtile>
+	
+         <imagegrid name="gamegrid">
+			<pos>0.02 0.20</pos>
+			<size>0.99 0.65</size>
+			<margin>0.02 0.02</margin>
+		</imagegrid>
+		
+	<gridtile name="selected">
+			<size>0.15 0.20</size>
+			<backgroundColor>cd9642</backgroundColor>
+		</gridtile>
+				
+		<text name="md_name">
+			<fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+			<fontSize>0.07</fontSize>
+			<pos>0.435625 0.02</pos>
+			<size>0.71875 0.0648148148148148</size>
+			<alignment>left</alignment>
+			<color>FFFFFF</color>
+		</text>
+		
+				<image name="logo">
+			<path>./_inc/system.png</path>
+			<color>FFFFFF</color>
+	<origin>0.5 0.5</origin>
+	<pos>0.13 0.06</pos>
+	<size>0.23 0.08</size>
+		</image>	
+		</view>
+		
+<!--fin grid-->     
+     
+     
+     <!--    logos-->
+    <view name="system">
+		<image name="logo">
+			<path>./_inc/system.png</path>
+		</image>
+	</view>
+
+
+  <view name="video">
+		<image name="logo">
+			<path>./_inc/system.png</path>
+			<color>FFFFFF</color>
+	<origin>0.5 0.5</origin>
+	<pos>0.13 0.06</pos>
+	<size>0.23 0.08</size>
+		</image>
+		</view>
+
+
+
+  <view name="detailed">
+		<image name="logo">
+			<path>./_inc/system.png</path>
+			<color>FFFFFF</color>
+	<origin>0.5 0.5</origin>
+	<pos>0.13 0.06</pos>
+	<size>0.23 0.08</size>
+		</image>
+	</view>
+
+
+	
+	 <view name="basic">
+		<image name="logo">
+			<path>./_inc/system.png</path>
+			<color>FFFFFF</color>
+	<origin>0.5 0.5</origin>
+	<pos>0.45 0.06</pos>
+	<size>0.23 0.08</size>
+		</image>
+	</view>
+	
+	 <!--  fin logos  -->
+	
+
+
+<!--  fondos-->
+
+	<view name="system, basic, detailed, grid, video">
+	                <image name="background" extra="true">
+                   <origin>0 0</origin>
+                   <pos>0 0</pos>
+                   <size>1 1</size>
+                   <path>./_inc/fondo.png</path>
+                </image>
+	</view>
+    
+    
+    
+    <view name="basic, detailed, grid, video">
+        <image name="frame" extra="true">
+            <origin>0 0</origin>
+                   <pos>0 0.19</pos>
+                   <size>600 0.670</size>
+            <path>./_inc/fondo2.png</path>
+        </image>
+    </view>
+    
+    
+  	<!--  fin   fondos-->  
+    
+    
+    
+    
+    <!--    info video-->
+    
+    <view name="video">
+     <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+    <fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+    <color>FFFFFF</color>
+        <pos>1 1</pos>
+    </text>
+    <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+    <fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+        <color>FFFFFF</color>
+        <fontSize>0.016</fontSize>
+    </text>
+    
+   <text name="md_lbl_rating">
+    <color>9a0000</color>
+        <pos>0.30 0.215</pos>
+         <size>0.0625 0.025</size>
+    </text>
+    <rating name="md_rating">
+        <pos>0.40 0.215</pos>
+         <size>0.005 0.025</size>
+        <filledPath>./_inc/star_filled.svg</filledPath>
+        <unfilledPath>./_inc/star_empty.svg</unfilledPath>
+    </rating>
+    
+          <text name="md_lbl_developer">
+         <color>dbcbad</color>
+         <pos>0.30 0.550</pos>
+         </text>
+       <text name="md_developer">
+    <pos>0.40 0.540</pos>
+    </text>
+
+         
+  <text name="md_lbl_publisher">
+ <color>6aa033</color>
+<pos>0.30 0.650</pos>
+</text>
+<text name="md_publisher">
+<pos>0.40 0.633</pos>
+</text>
+    
+  
+    <text name="md_lbl_playcount">
+        <color>f6eeee</color>
+<pos>0.30 0.800</pos>
+         </text>
+          <text name="md_playcount">
+        <color>b8ad91</color>
+       <pos>0.40 0.790</pos>
+    </text>
+         
+   <text name="md_lbl_lastplayed">
+<color>0093cf</color>
+<pos>0.30 0.730</pos>
+</text>
+<datetime name="md_lastplayed">
+<color>f6eeee</color>
+<pos>0.40 0.726</pos>
+</datetime>
+
+      <text name="md_lbl_players">
+      <color>f4811a</color>
+         <pos>0.30 0.280</pos>
+         <size>0.0625 0.025</size>
+      </text>
+      <text name="md_players">
+         <pos>0.40 0.280</pos>
+         <size>0.0375 0.025</size>
+      </text>
+      
+   <text name="md_lbl_releasedate">
+      <color>cd9642</color>
+         <pos>0.30 0.360</pos>
+         <size>0.0625 0.025</size>
+      </text>
+      <datetime name="md_releasedate">
+         <pos>0.40 0.360</pos>
+         <size>0.075 0.025</size>
+      </datetime>
+      
+    <text name="md_lbl_genre">
+      <color>f3ec29</color>
+         <pos>0.30 0.458</pos>
+         <size>0.0625 0.025</size>
+      </text>
+      <text name="md_genre">
+         <pos>0.40 0.454</pos>
+         <size>0.24 0.05</size>
+         </text>
+         
+         
+</view>
+
+
+<!--    fin info video-->
+
+
+   <!--    info detailed-->
+    
+    <view name="detailed">
+     <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+    <fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+    <color>FFFFFF</color>
+        <pos>1 1</pos>
+    </text>
+    <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+    <fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+        <color>FFFFFF</color>
+        <fontSize>0.016</fontSize>
+    </text>
+    
+   <text name="md_lbl_rating">
+    <color>9a0000</color>
+        <pos>0.30 0.215</pos>
+         <size>0.0625 0.025</size>
+    </text>
+    <rating name="md_rating">
+        <pos>0.40 0.215</pos>
+         <size>0.005 0.025</size>
+        <filledPath>./_inc/star_filled.svg</filledPath>
+        <unfilledPath>./_inc/star_empty.svg</unfilledPath>
+    </rating>
+    
+          <text name="md_lbl_developer">
+         <color>dbcbad</color>
+         <pos>0.30 0.550</pos>
+         </text>
+       <text name="md_developer">
+    <pos>0.40 0.540</pos>
+    </text>
+
+         
+  <text name="md_lbl_publisher">
+ <color>6aa033</color>
+<pos>0.30 0.650</pos>
+</text>
+<text name="md_publisher">
+<pos>0.40 0.633</pos>
+</text>
+    
+  
+    <text name="md_lbl_playcount">
+        <color>f6eeee</color>
+<pos>0.30 0.800</pos>
+         </text>
+          <text name="md_playcount">
+        <color>b8ad91</color>
+       <pos>0.40 0.790</pos>
+    </text>
+         
+   <text name="md_lbl_lastplayed">
+<color>0093cf</color>
+<pos>0.30 0.730</pos>
+</text>
+<datetime name="md_lastplayed">
+<color>f6eeee</color>
+<pos>0.40 0.726</pos>
+</datetime>
+
+      <text name="md_lbl_players">
+      <color>f4811a</color>
+         <pos>0.30 0.280</pos>
+         <size>0.0625 0.025</size>
+      </text>
+      <text name="md_players">
+         <pos>0.40 0.280</pos>
+         <size>0.0375 0.025</size>
+      </text>
+      
+   <text name="md_lbl_releasedate">
+      <color>cd9642</color>
+         <pos>0.30 0.360</pos>
+         <size>0.0625 0.025</size>
+      </text>
+      <datetime name="md_releasedate">
+         <pos>0.40 0.360</pos>
+         <size>0.075 0.025</size>
+      </datetime>
+      
+    <text name="md_lbl_genre">
+      <color>f3ec29</color>
+         <pos>0.30 0.458</pos>
+         <size>0.0625 0.025</size>
+      </text>
+      <text name="md_genre">
+         <pos>0.40 0.454</pos>
+         <size>0.24 0.05</size>
+         </text>
+         
+         
+</view>
+
+<!--    fin info detailed-->
+
+
+
+<!--    game lists-->
+
+   <view name="video">
+      <textlist name="gamelist">
+         <pos>0.02 0.21</pos>
+         <size>0.22 0.65</size>
+          <selectorColor>842c38</selectorColor>
+         <selectedColor>000000</selectedColor>
+         <primaryColor>cd9642</primaryColor>
+         <secondaryColor>f4f4f0</secondaryColor>
+         <fontSize>0.02</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound>./_inc/sound.wav</scrollSound>
+         <alignment>left</alignment>
+      </textlist>
+   </view>
+   
+   <view name="basic">
+      <textlist name="gamelist">
+         <pos>0.35 0.20</pos>
+         <size>0.22 0.64</size>
+          <selectorColor>842c38</selectorColor>
+         <selectedColor>000000</selectedColor>
+         <primaryColor>e1ded4</primaryColor>
+         <secondaryColor>f4f4f0</secondaryColor>
+         <fontSize>0.02</fontSize>
+         <forceUppercase>1</forceUppercase>
+          <scrollSound>./_inc/soundbasic.wav</scrollSound>
+         <alignment>center</alignment>
+      </textlist>
+   </view>
+   
+      <view name="detailed">
+      <textlist name="gamelist">
+         <pos>0.02 0.21</pos>
+         <size>0.22 0.65</size>
+          <selectorColor>cd9642</selectorColor>
+         <selectedColor>000000</selectedColor>
+         <primaryColor>842c38</primaryColor>
+         <secondaryColor>f4f4f0</secondaryColor>
+         <fontSize>0.02</fontSize>
+         <forceUppercase>1</forceUppercase>
+          <scrollSound>./_inc/sounddetailed.wav</scrollSound>
+         <alignment>left</alignment>
+      </textlist>
+   </view>
+<!--    fin game list-->
+    
+    
+    
+    
+<!--   videos -->
+ <view name="detailed">
+  <video name="md_video">
+             <origin>0.5 0.5</origin>
+         <pos>0.767 0.452</pos>
+         <size>0.46 0.430</size>
+         <delay>0</delay>
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <showSnapshotDelay>true</showSnapshotDelay>
+      </video>
+      </view>
+      
+       <view name="video">
+  <video name="md_video">
+             <origin>0.5 0.5</origin>
+         <pos>0.767 0.452</pos>
+         <size>0.46 0.430</size>
+         <delay>0</delay>
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <showSnapshotDelay>true</showSnapshotDelay>
+      </video>
+      </view>
+      
+      
+<!-- fin   videos -->
+    
+    
+    
+     <!--  imagen -->
+   <view name="detailed">
+    <image name="md_image">
+         <origin>0.5 0.5</origin>
+         <pos>0.767 0.447</pos>
+         <maxSize>0.50 0.50</maxSize>
+      </image>
+ </view>
+ 
+   <view name="video">
+          <image name="md_image">
+         <origin>0.5 0.5</origin>
+         <pos>0.767 0.452</pos>
+         <size>0.46 0.430</size>
+      </image>
+ </view>
+  <!-- fin   imagen -->
+ 
+  
+
+ <!-- descriptions -->
+ 
+  <view name="video">
+      <text name="md_description">
+         <pos>0.57 0.72</pos>
+         <size>0.400 0.12</size>
+         <color>FFFFFF</color>
+      </text>
+      </view>
+      
+        <view name="detailed">
+      <text name="md_description">
+         <pos>0.57 0.72</pos>
+         <size>0.400 0.12</size>
+         <color>FFFFFF</color>
+      </text>
+      </view>
+      
+ 
+      
+  <!-- fin descriptions -->
+   
+   
+   
+    <!-- helps -->
+    
+  <view name="video">
+      <helpsystem name="help">
+      <fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+         <fontSize>0.0200</fontSize>      
+         <pos>0.03 0.14</pos> 
+         <textColor>7e2632</textColor>
+         <iconColor>FFFFFF</iconColor>
+      </helpsystem>
+   </view>
+   
+   	  <view name="detailed">
+      <helpsystem name="help">
+      <fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+         <fontSize>0.0200</fontSize>      
+         <pos>0.03 0.14</pos> 
+         <textColor>FFFFFF</textColor>
+         <iconColor>FFFFFF</iconColor>
+      </helpsystem>
+   </view>
+   
+   	  <view name="basic">
+      <helpsystem name="help">
+      <fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+         <fontSize>0.0200</fontSize>      
+         <pos>0.03 0.14</pos> 
+         <textColor>FFFFFF</textColor>
+         <iconColor>FFFFFF</iconColor>
+      </helpsystem>
+   </view>
+   
+
+
+   <!-- fin helps -->
+    
+</theme>

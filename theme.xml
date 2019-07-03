@@ -1,0 +1,48 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>4</formatVersion>
+
+<feature supported="carousel">
+   <view name="system">
+      <carousel name="systemcarousel">
+       <type>horizontal</type>
+        <pos>0.01 -0.443</pos>
+        <size>1 1</size>
+        <logoScale>2</logoScale>
+        <logoSize>0.15 0.166</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>3</maxLogoCount>      
+        </carousel>
+
+      <text name="systemInfo">
+      <fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+        <pos>0.16 0.94</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>FFFFFF</color>
+	 <fontSize>0.03</fontSize>
+    </text>
+   </view>
+</feature>
+
+
+
+   <view name="system">
+      <helpsystem name="help">
+      <fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+          <fontSize>0.0200</fontSize>      
+         <pos>0.03 0.14</pos> 
+         <textColor>FFFFFF</textColor>
+         <iconColor>FFFFFF</iconColor>
+      </helpsystem>
+   </view>
+   
+
+   
+
+
+
+
+   
+</theme>
